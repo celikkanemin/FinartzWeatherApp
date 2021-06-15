@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		4445F85526738857007F657C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445F85426738857007F657C /* AppDelegate.swift */; };
 		4445F85726738857007F657C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445F85626738857007F657C /* SceneDelegate.swift */; };
-		4445F85926738857007F657C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445F85826738857007F657C /* ViewController.swift */; };
+		4445F85926738857007F657C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445F85826738857007F657C /* ListViewController.swift */; };
 		4445F85C26738857007F657C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4445F85A26738857007F657C /* Main.storyboard */; };
 		4445F85F26738857007F657C /* FinartzWeatherApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4445F85D26738857007F657C /* FinartzWeatherApp.xcdatamodeld */; };
 		4445F86126738859007F657C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4445F86026738859007F657C /* Assets.xcassets */; };
 		4445F86426738859007F657C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4445F86226738859007F657C /* LaunchScreen.storyboard */; };
 		4445F86F26738859007F657C /* FinartzWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445F86E26738859007F657C /* FinartzWeatherAppTests.swift */; };
 		4445F87A26738859007F657C /* FinartzWeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445F87926738859007F657C /* FinartzWeatherAppUITests.swift */; };
+		4445F88B26738B71007F657C /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445F88A26738B71007F657C /* ListTableViewCell.swift */; };
+		44A95BEE2673A04500221B5B /* addCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A95BED2673A04500221B5B /* addCityViewController.swift */; };
+		44A95BFE267690FE00221B5B /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A95BFD267690FE00221B5B /* Cities.swift */; };
+		44BF239B2677A77900D5859C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF239A2677A77900D5859C /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 		4445F85126738857007F657C /* FinartzWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinartzWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4445F85426738857007F657C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4445F85626738857007F657C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4445F85826738857007F657C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4445F85826738857007F657C /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		4445F85B26738857007F657C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4445F85E26738857007F657C /* FinartzWeatherApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinartzWeatherApp.xcdatamodel; sourceTree = "<group>"; };
 		4445F86026738859007F657C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +55,10 @@
 		4445F87526738859007F657C /* FinartzWeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinartzWeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4445F87926738859007F657C /* FinartzWeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinartzWeatherAppUITests.swift; sourceTree = "<group>"; };
 		4445F87B26738859007F657C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4445F88A26738B71007F657C /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		44A95BED2673A04500221B5B /* addCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addCityViewController.swift; sourceTree = "<group>"; };
+		44A95BFD267690FE00221B5B /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
+		44BF239A2677A77900D5859C /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +111,12 @@
 			children = (
 				4445F85426738857007F657C /* AppDelegate.swift */,
 				4445F85626738857007F657C /* SceneDelegate.swift */,
-				4445F85826738857007F657C /* ViewController.swift */,
+				4445F85826738857007F657C /* ListViewController.swift */,
+				4445F88A26738B71007F657C /* ListTableViewCell.swift */,
 				4445F85A26738857007F657C /* Main.storyboard */,
+				44BF239A2677A77900D5859C /* DetailsViewController.swift */,
+				44A95BED2673A04500221B5B /* addCityViewController.swift */,
+				44A95BFD267690FE00221B5B /* Cities.swift */,
 				4445F86026738859007F657C /* Assets.xcassets */,
 				4445F86226738859007F657C /* LaunchScreen.storyboard */,
 				4445F86526738859007F657C /* Info.plist */,
@@ -261,10 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4445F85926738857007F657C /* ViewController.swift in Sources */,
+				4445F85926738857007F657C /* ListViewController.swift in Sources */,
+				44A95BEE2673A04500221B5B /* addCityViewController.swift in Sources */,
 				4445F85F26738857007F657C /* FinartzWeatherApp.xcdatamodeld in Sources */,
+				44BF239B2677A77900D5859C /* DetailsViewController.swift in Sources */,
 				4445F85526738857007F657C /* AppDelegate.swift in Sources */,
+				44A95BFE267690FE00221B5B /* Cities.swift in Sources */,
 				4445F85726738857007F657C /* SceneDelegate.swift in Sources */,
+				4445F88B26738B71007F657C /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
